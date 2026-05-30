@@ -2,85 +2,92 @@
 
 A simple console-based Student Management System built using C++.
 
-## Features
+This project allows users to:
 
-* Add Student
-* Display All Students
-* Search Student by Roll Number
-* Update Student Details
-* Delete Student Records
-* Menu-Driven Interface
+- Add student records
+- Display all students
+- Search students by roll number
+- Update student details
+- Delete student records
+- Store data permanently using file handling
 
-## Technologies Used
+---
 
-* C++
-* Arrays
-* Structures
-* Functions
-* Loops and Conditional Statements
+# Features
 
-## Project Structure
+## Version 1
+- Basic menu system
+- Add student
 
-```text
-Student Management System
+## Version 2
+- Display students
+- Search student
+- Update student
+- Delete student
+
+## Version 3
+- File handling
+- Data saved in `students.txt`
+
+## Version 4
+- Modular project structure
+- Multiple source files
+- Full name input support
+- Cleaner code organization
+
+---
+
+# Technologies Used
+
+- C++
+- File Handling
+- Structures
+- Functions
+- Header Files
+
+---
+
+# Project Structure
+
+```
+student-management-system-cpp/
 │
 ├── main.cpp
-└── README.md
+├── student.cpp
+├── student.h
+├── students.txt
+├── README.md
+└── .gitignore
 ```
 
-## How to Run
+---
 
-### Compile
+# How to Run
+
+## Compile
 
 ```bash
-g++ main.cpp -o student
+g++ main.cpp student.cpp -o student
 ```
 
-### Run
+## Run
 
 ```bash
-./student
-```
-
-For PowerShell:
-
-```powershell
 .\student.exe
 ```
 
-## Sample Menu
+---
 
-```text
-===== STUDENT MANAGEMENT SYSTEM =====
+# Future Improvements
 
-1. Add Student
-2. Display Students
-3. Search Student
-4. Delete Student
-5. Update Student
-6. Exit
-```
+- Password login system
+- GUI version
+- Database integration
+- Sorting students
+- Marks percentage calculator
 
-## Concepts Practiced
+---
 
-* Structures
-* Arrays
-* Functions
-* Searching
-* Updating Records
-* Deleting Records
-* User Input Handling
-
-## Future Improvements
-
-* File Handling (Save data permanently)
-* Support Full Names with Spaces
-* Better User Interface
-* Sorting Students
-* GPA/Percentage Calculation
-
-## Author
+# Author
 
 Vishesh Sharma
-
-Learning C++ and Data Structures through hands-on projects.
