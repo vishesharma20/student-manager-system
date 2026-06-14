@@ -11,6 +11,7 @@ This project allows users to:
 - Update student details
 - Delete student records
 - Store data permanently using file handling
+- Efficiently manage student data
 
 ---
 
