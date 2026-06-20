@@ -1,6 +1,6 @@
 # Student Management System (C++)
 
-A simple console-based Student Management System built using C++.
+A simple console-based Student Management System built using C++
 Use the downloadable executable file to run the system locally.
 
 This project allows users to:
